@@ -1013,12 +1013,13 @@ div.tab button:hover {
 
 .check {
     padding-bottom: 0;
+    padding-inline-start: 12px !important;
     margin-bottom: 25px;
     list-style: none
 }
 
 .check li {
-    font-size: 18px !important;
+    font-size: 17px !important;
     line-height: 30px !important;
 }
 
@@ -1576,6 +1577,7 @@ hr.invis3 {
     font-weight: bold;
     padding: 0.8rem 2rem;
     text-transform: none;
+    cursor: pointer;
 }
 
 .link-widget li {
